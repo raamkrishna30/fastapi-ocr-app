@@ -13,3 +13,15 @@ A fast, free, and simple OCR (Optical Character Recognition) API built with Fast
    ```bash
    git clone <your-repo-link>
    cd my-ocr-api
+2. To create an virtual environment
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+3. To install requirements
+   ```bash
+   pip install -r requirements.txt
+4. To run
+   ```bash
+   uvicorn main:app --reload
+   
+   
